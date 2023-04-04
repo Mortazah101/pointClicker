@@ -10,25 +10,46 @@
 <body>
     <h1 id="mainTitle">ClickClackCloek</h1>
     <div id="gameWindow">
-        <!-- Foreground -->
-        <div id="door1" class="Foreground"> 
+       
+   
+<!-- dialogue bar-->
+        <div id="dialogueBar" class="foreground">
+            <div id="brownbar" ></div>
+            <div id="mainCharacterSpeech" class="speech-bubble"> ... </div>
+            <img  class="foreground" id="hero" src="./img/portrait.png" alt="portrait">  
 
+            <div id="counterspeech" class="counterspeech-bubble" ></div>
+            <img  id="countercharacter"  class="foreground"  src=""  alt="sidecharacter">
         </div>
 
-        <!-- Charater -->
+<!-- Foreground -->
+        <div id="door1" class="foreground"></div>
+        <div id="door2" class="foreground"></div>
+        <div id="statue" class="foreground"></div>
+
+<!-- Character -->
         <div id="mainCharacter" class="character">
+            <div id="mainCharacterSpeech" class="speech-bubble">
+               ...
+            </div>
             <img src="img/MainCharacter_32x32_idle.gif" alt="Main Character">
         </div>
-        <!-- Background -->
+
+<!-- Background -->
         <div id="titlemap" class="background">
             <img src="img/Naamloos-1-Hersteld.png" alt="tilemap">
         </div>
-    </div>
-    <script src="index.js"></script>
+        </div>
+        <script src="index.js"></script>
 
-    <Audio id="characterAudio">
-        <source src="./audio/Gibberish - Sound Effect_01.mp3">
-    </Audio>
+<!-- Main and counter character -->
+        <Audio id="characterAudio">
+            <source src="./audio/Gibberish - Sound Effect_01.mp3">
+        </Audio>
+
+        <Audio id="characterAudio2">
+            <source src="./audio/Gibberish - Sound Effect_01.mp3">
+        </Audio>
 </body>
 </head>
 </html>

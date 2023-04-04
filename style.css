@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
 body{
     background-color: black;
     color: white;
     display: grid;
     grid-template-columns: auto 800px auto;
     grid-template-rows: auto auto;
+    font-family: 'Playfair Display SC', serif;
 }
 
 #mainTitle {
@@ -48,11 +51,78 @@ body{
 }
 
 #door1{
-  top: 200px;
-  left: 100px;
-  width: 32px;
-  height: 32px;
-  background-color: rgb(255, 0, 0);
+  position: absolute;
+  top: 247px;
+  left: 146px;
+  width: 88px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0);
 
 
+}
+.speech-bubble {
+    position: relative;
+	background: #ffffff;
+	border-radius: 5px;
+    color: #000000;
+    padding: 5px 5px 5px 5px ;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    width: 250px;
+    height: 20px;
+    left: 50px;
+    top: 20px;
+}
+
+#dialogueBar{
+    height: 64px; 
+    bottom: 0px;
+    
+
+}
+#countercharacter{
+    top: 20px;
+    left: 700px;
+
+}
+
+#counterspeech{
+    right: 82px;
+    top: 16px;
+   
+}
+
+#brownbar{
+    background-color: rgb(92, 38, 13);
+    position: absolute;
+    height: 32px;
+    width: 803px;
+    bottom: 0;
+    left: 0;
+
+}
+#hero{
+    bottom: 0px;
+    transition: all 1s ease-in-out;
+
+}
+#mainCharacterSpeech{
+    left: 82px;
+    top: 16px;
+
+}
+
+
+#setmaindialgoe{
+
+
+
+}
+
+#statue{
+    background-color: rgb(255, 255, 255);    
+    top: 215px;
+    left: 336px;
+    width: 92px;
+    height: 68px
 }
