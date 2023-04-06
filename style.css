@@ -17,11 +17,11 @@ body{
 
 #gameWindow{
     position: relative;
-    width: 800px;
-    height: 608px;
+    width: 912px;
+    height: 480px;
     grid-column-start: 2;
     grid-row-start: 2;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .background{
@@ -40,8 +40,16 @@ body{
 }
 
 #tilemap{
+  left: 0px;
+  top:0px;
     
 
+}
+
+#dialogBox{
+    position: relative;
+    width: 912px;
+    height: 64px;
 }
 
 #mainCharacter{
@@ -52,16 +60,15 @@ body{
 
 #door1{
   position: absolute;
-  top: 247px;
-  left: 146px;
-  width: 88px;
+  top: 85px;
+  left: 96px;
+  width: 40px;
   height: 40px;
-  background-color: rgba(255, 255, 255, 0);
+ 
 
 
 }
 .speech-bubble {
-    position: relative;
 	background: #ffffff;
 	border-radius: 5px;
     color: #000000;
@@ -70,8 +77,6 @@ body{
     transition: all 1s ease-in-out;
     width: 250px;
     height: 20px;
-    left: 50px;
-    top: 20px;
 }
 
 #dialogueBar{
@@ -81,14 +86,20 @@ body{
 
 }
 #countercharacter{
-    top: 20px;
-    left: 700px;
+    top: -5px;
+    left: 800px;
 
 }
 
+
+
 #counterspeech{
-    right: 82px;
+    background-color: #ffffff;
+    width: 250px;
+    height: 20px;
+    right: 100px;
     top: 16px;
+    opacity: 0;
    
 }
 
@@ -96,7 +107,7 @@ body{
     background-color: rgb(92, 38, 13);
     position: absolute;
     height: 32px;
-    width: 803px;
+    width: 912px;
     bottom: 0;
     left: 0;
 
@@ -120,9 +131,9 @@ body{
 }
 
 #statue{
-    background-color: rgb(255, 255, 255);    
-    top: 215px;
-    left: 336px;
+    background-color:rgba(0, 0, 0, 0);
+    left: 180px;
+    top: 367px;
     width: 92px;
-    height: 68px
+    height: 80px;
 }
