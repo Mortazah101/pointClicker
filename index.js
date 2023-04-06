@@ -49,8 +49,8 @@ gameWindow.onclick = function (e) {
             case "statue":
                 window.location.href = "index2.html"
         default:
-            hidehero();
-            hideSpeech();
+           // hidehero();
+        //    hideSpeech();
         
         // do something when it doesn't have a case
         break;
